@@ -1,0 +1,6 @@
+services:
+    vkr_multimedia_analyzer.multimedia_duration_analyzer:
+        class: VKR\MultimediaAnalyzerBundle\Services\MultimediaDurationAnalyzer
+        arguments:
+            - "@vkr_settings.settings_retriever"
+
